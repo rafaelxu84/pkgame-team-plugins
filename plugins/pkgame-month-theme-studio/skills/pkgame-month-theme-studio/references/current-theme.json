@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "rio-after-dark",
+  "name": "Rio After Dark",
+  "themeVersion": 2,
+  "updatedAt": "2026-10-05",
+  "status": "Default rendering direction and palette accepted; subject, use, style overrides and branding controlled by the operator.",
+  "rendering": {
+    "name": "GTA6-inspired illustrated poster",
+    "description": "Semi-realistic proportions, deliberate hand-painted contours, graphic tonal shapes, cinematic light and polished commercial game-poster energy. Keep the focal subject readable, with concentrated vivid color and clear depth.",
+    "iconAdaptation": "Retain the illustrated contours, tonal separation and selected palette, with a simplified isolated subject and fewer details. A full scenic background is not required."
+  },
+  "palette": [
+    {"name": "Theme pink", "hex": "#EC268F", "role": "Default expressive accent"},
+    {"name": "Cyan", "hex": "#0FBFD5", "role": "Cool light or supporting accent"},
+    {"name": "Midnight blue", "hex": "#112441", "role": "Depth and shadow where appropriate"},
+    {"name": "Warm white", "hex": "#F6E7D1", "role": "Light surfaces and tonal separation"},
+    {"name": "Accent gold", "hex": "#D3A861", "role": "Restrained optional warm highlights"}
+  ],
+  "paletteGuidance": "Use the palette as a coherent default, not a quota requiring every color. Preserve natural skin/fur where relevant. Users may alter colors and the overall rendering style. These artwork defaults do not certify website design-system compliance.",
+  "subjectPolicy": "Operator-supplied theme and main elements. No mandatory person, casino object, sports object, mascot, clothing, geographic setting, or brand.",
+  "compositionPolicy": "Derive composition from the operator's image ratio and width, or icon specification. No fixed website slot, text zone, button zone, or required edge fade.",
+  "brandingDefault": "Do not add extra brand marks unless requested. This applies equally to PK.GAME and other brands.",
+  "references": [
+    {
+      "file": "assets/style-reference-01.jpg",
+      "role": "Primary rendering and color reference",
+      "provenance": "User-selected illustration from the earlier artwork work",
+      "use": "Observe illustrated realism, pink/cyan lighting and tonal depth. The person, clothing, Rio setting and wide composition are examples, not defaults for every task."
+    },
+    {
+      "file": "assets/style-reference-02.jpg",
+      "role": "Optional object and material illustration reference",
+      "provenance": "Earlier Casino entrance candidate",
+      "use": "Observe illustrated object surfaces and the pink/cyan palette. Do not inherit the slot machine, left copy area, or layout unless requested."
+    },
+    {
+      "file": "assets/style-reference-03.jpg",
+      "role": "Optional sports-object illustration reference",
+      "provenance": "Earlier Sports entrance candidate",
+      "use": "Observe object contours, readable shapes and coordinated light. Do not inherit football elements, the court, or layout unless requested."
+    }
+  ],
+  "updatePolicy": "Per-task overrides do not modify this snapshot. Explicit shared-default updates create a new theme version and package."
+}

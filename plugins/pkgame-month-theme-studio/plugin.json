@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pkgame-month-theme-studio",
+  "version": "1.0.1",
+  "description": "PK.GAME monthly artwork workflow and portable theme references.",
+  "author": {
+    "name": "PK.GAME"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PK.Game Month Theme Studio",
+        "shortDescription": "Create images and icons with adjustable monthly themes",
+        "longDescription": "Team artwork workflow with operator-defined elements, image ratio and width, optional style and branding, and bundled visual references.",
+        "developerName": "PK.GAME",
+        "defaultPrompt": [
+          "Use $pkgame-month-theme-studio to create an image or icon from my subject, elements, dimensions and optional style changes."
+        ]
+      }
+    }
+  }
+}

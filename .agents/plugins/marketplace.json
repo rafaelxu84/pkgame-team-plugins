@@ -1,0 +1,15 @@
+{
+  "name": "pkgame-team-plugins",
+  "interface": {
+    "displayName": "PKG Team Plugins"
+  },
+  "plugins": [
+    {
+      "name": "pkgame-month-theme-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pkgame-month-theme-studio"
+      }
+    }
+  ]
+}
